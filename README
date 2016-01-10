@@ -1,0 +1,7 @@
+Running the application on Pivotal Web Services:
+
+1. Choose a MySQL Service from Marketplace. Instance Name must be "mysqldb": $ cf create-service cleardb mysqldb
+2. Push the application: $ cf push person-app
+
+
+
