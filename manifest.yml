@@ -1,0 +1,11 @@
+---
+applications:
+- name: person-app
+memory: 256M
+instances: 1
+host: person-app
+domain: cfapps.io
+path: .
+buildpack: php_buildpack
+services:
+- mysqldb
